@@ -449,7 +449,7 @@ button {
   padding-top: 75px;
 }
 
-.container-quick {}
+
 
 .quick-title {
   font-weight: 700;
@@ -471,11 +471,7 @@ button {
   max-width: 542px;
 }
 
-.quick-list {}
 
-.quick-item {}
-
-.quick-text-item {}
 
 .btn-quick {
   display: block;
@@ -608,11 +604,6 @@ button {
   background: #fff;
 }
 
-.item-price-green {
-  background: #02897a;
-  color: #fff;
-}
-
 .item-price-title {
   font-weight: 700;
   font-size: 24px;
@@ -636,10 +627,7 @@ button {
   letter-spacing: 0em;
   text-align: center;
   color: #02897a;
-}
-
-.item-green {
-  color: #fff;
+  line-height: 1;
 }
 
 .item-list {
@@ -656,29 +644,26 @@ button {
 }
 
 .dollar {
+  font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 24px;
   line-height: 1.25;
   letter-spacing: 0em;
   color: #02897a;
-}
-
-.dollar-green {
-  color: #fff;
+  vertical-align: super;
+  font-size: 0.5em;
 }
 
 
 .per {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.1875;
+  line-height: 1.18;
   letter-spacing: 0.01em;
   color: #afafaf;
+  margin-top: 0.5em;
 }
 
-.per-green {
-  color: #e0e0e0;
-}
 
 .item-list-item:last-child {
   margin-bottom: 0;
@@ -703,4 +688,131 @@ button {
 .green {
   background: #02897a;
   color: #fff;
+}
+
+/* section 9 opinies */
+
+.section-say {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.title-say {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.78125;
+  letter-spacing: 0.01em;
+  color: #22343d;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.title-text-say {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.75;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #22343d;
+  width: 537px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.list-say {
+  display: flex;
+  gap: 64px;
+}
+
+.item-say {
+  width: calc((100% - 128px) / 3);
+  border: 1px solid #dedede;
+  border-radius: 5px;
+}
+
+.stars-item-img {
+  padding-top: 28px;
+  padding-left: 28px;
+  margin-bottom: 16px;
+}
+
+.text-item-say {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75;
+  letter-spacing: 0.01em;
+  color: #737373;
+  margin-bottom: 16px;
+  padding-left: 26px;
+}
+
+.icon-text-say {
+  display: flex;
+  gap: 14px;
+  padding-left: 26px;
+  padding-bottom: 28px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.ikon-item-say {}
+
+.wahid-item {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+  color: #02897a;
+}
+
+.designer-item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.71429;
+  letter-spacing: 0.01em;
+  color: #252b42;
+}
+
+/* section 10 */
+.section-join {
+  border-radius: 32px;
+  width: 968px;
+  background: #02897a;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.container-join {
+  display: flex;
+  gap: 10px;
+}
+
+.title-join {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1.514;
+  color: #fff;
+  width: 510px;
+  margin-bottom: 46px;
+  padding-top: 49px;
+  padding-left: 51px;
+}
+
+.btn-join {
+  display: block;
+  align-items: center;
+  border-radius: 8px;
+  width: 150px;
+  height: 50px;
+  background-color: #fff;
+  font-weight: 600;
+  font-size: 20px;
+  color: #02897a;
+  margin-left: 51px;
+  margin-bottom: 56px;
 }
