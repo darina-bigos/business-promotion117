@@ -778,7 +778,7 @@ button {
 
 .section-say {
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 100px;
 }
 
 .title-say {
@@ -871,13 +871,16 @@ button {
   width: 968px;
   background: #02897a;
   margin: 0 auto;
-  padding-top: 50px;
-  padding-bottom: 55px;
 }
 
 .container-join {
   display: flex;
   gap: 10px;
+}
+
+.title-btn {
+  padding-top: 49px;
+  padding-left: 51px;
 }
 
 .title-join {
@@ -887,8 +890,6 @@ button {
   color: #fff;
   width: 510px;
   margin-bottom: 46px;
-  padding-top: 49px;
-  padding-left: 51px;
 }
 
 .btn-join {
@@ -911,6 +912,43 @@ button {
   background-color: #02897a;
 }
 
+/* section 11 footer */
+
 .section-footer {
-  padding-top: 55px;
+  padding-top: 110px;
+  padding-bottom: 81px;
+}
+
+.container-foter {
+  display: flex;
+  align-items: flex-start;
+}
+
+.logo-footer {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-right: 146px;
+  margin-bottom: 18px;
+}
+
+.list-social-media {
+  display: flex;
+  gap: 16px;
+}
+
+.link-sm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #edfffc;
+}
+
+.icon-footer {
+  stroke-width: 2px;
+  stroke: #02897a;
+  fill: #edfffc;
 }
